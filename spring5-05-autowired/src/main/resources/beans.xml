@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--
+        <bean id="cat" class="com.waciao.pojo.Cat"/>
+        <bean id="dog" class="com.waciao.pojo.Dog"/>
+        <bean id="people" class="com.waciao.pojo.People">
+            <property name="cat" ref="cat"/>
+            <property name="dog" ref="dog"/>
+            <property name="name" value="waciao"/>
+        </bean>
+
+            自动装配
+            byName: 就是实体类中 set 后面的名字,  setDog/setCat, 不区分大小写
+
+        <bean id="people" class="com.waciao.pojo.People" autowire="byName">
+            <property name="name" value="waciao"/>
+        </bean>
+    -->
+
+    <!--开启注解支持-->
+    <context:annotation-config/>
+
+    <bean id="cat" class="com.waciao.pojo.Cat"/>
+    <bean id="dog" class="com.waciao.pojo.Dog"/>
+    <bean id="people" class="com.waciao.pojo.People"/>
+
+
+</beans>

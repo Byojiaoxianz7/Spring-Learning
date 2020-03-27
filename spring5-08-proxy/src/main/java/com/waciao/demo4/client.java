@@ -1,4 +1,4 @@
-package com.waciao.demo04;
+package com.waciao.demo4;
 
 import com.waciao.demo2.UserService;
 import com.waciao.demo2.UserServiceImpl;

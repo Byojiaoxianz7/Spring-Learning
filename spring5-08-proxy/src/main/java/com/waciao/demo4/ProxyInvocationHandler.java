@@ -1,6 +1,4 @@
-package com.waciao.demo04;
-
-import com.waciao.demo3.Rent;
+package com.waciao.demo4;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

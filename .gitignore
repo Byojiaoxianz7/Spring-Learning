@@ -9,3 +9,5 @@
 out
 gen
 
+spring5-02-hellospring/target/generated-sources/
+spring5-02-hellospring/target/generated-test-sources/
